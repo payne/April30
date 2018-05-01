@@ -1,0 +1,16 @@
+eggs
+gram='eg'
+gram='gg'
+gram='gs'
+gram='s'
+gram='gg'
+location=1
+follow:s
+gram='eg'
+location=0
+follow:g
+gram='s'
+location=3
+gram='gs'
+location=2
+{gg=[s], eg=[g], s=[], gs=[]}
