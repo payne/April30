@@ -30,10 +30,10 @@ public class Demo {
       while (location != -1) {
         System.out.println("location="+location);
         if (location+gramSize < data.length()) {
-    			String follow = data.substring(location+gramSize, location+gramSize+1);
-    			System.out.println("follow:"+follow);
-			    followList.add(follow);
-			    location = data.indexOf(gram, location+1);
+          String follow = data.substring(location+gramSize, location+gramSize+1);
+          System.out.println("follow:"+follow);
+          followList.add(follow);
+          location = data.indexOf(gram, location+1);
         } else {
           location = -1;
         }
