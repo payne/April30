@@ -7,7 +7,24 @@ public class Demo {
     String data=args.length > 0 ? args[0] : "eggs";
     Map<String, List<String>> dustinsMap = makeMapGramsToFollowList(data, 2);
     System.out.println(dustinsMap);
+		System.out.println("There are "  + dustinsMap.size() + " keys:");
+		int i=1;
+		for (String key: dustinsMap.keySet()) {
+						List<String> value = dustinsMap.get(key);
+						System.out.format("%d: '%s'='%s'\n", i++, key, value);
+		}
   }
+
+
+
+
+
+
+
+
+
+
+
 
   static Map<String, List<String>> makeMapGramsToFollowList(String data, int gramSize) {
     Map<String, List<String>> result = new HashMap<>();

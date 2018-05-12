@@ -1,0 +1,171 @@
+yes-this-is-a-thin-pretty-pink-thistle
+gram='ye'
+gram='es'
+gram='s-'
+gram='-t'
+gram='th'
+gram='hi'
+gram='is'
+gram='s-'
+gram='-i'
+gram='is'
+gram='s-'
+gram='-a'
+gram='a-'
+gram='-t'
+gram='th'
+gram='hi'
+gram='in'
+gram='n-'
+gram='-p'
+gram='pr'
+gram='re'
+gram='et'
+gram='tt'
+gram='ty'
+gram='y-'
+gram='-p'
+gram='pi'
+gram='in'
+gram='nk'
+gram='k-'
+gram='-t'
+gram='th'
+gram='hi'
+gram='is'
+gram='st'
+gram='tl'
+gram='le'
+gram='e'
+gram='tt'
+location=22
+follow:y
+gram='hi'
+location=5
+follow:s
+location=15
+follow:n
+location=32
+follow:s
+gram='pr'
+location=19
+follow:e
+gram='ty'
+location=23
+follow:-
+gram='ye'
+location=0
+follow:s
+gram='-a'
+location=11
+follow:-
+gram='y-'
+location=24
+follow:p
+gram='s-'
+location=2
+follow:t
+location=7
+follow:i
+location=10
+follow:a
+gram='-i'
+location=8
+follow:s
+gram='st'
+location=34
+follow:l
+gram='k-'
+location=29
+follow:t
+gram='-p'
+location=18
+follow:r
+location=25
+follow:i
+gram='in'
+location=16
+follow:-
+location=27
+follow:k
+gram='e'
+location=1
+follow:-
+location=21
+follow:t
+location=37
+gram='-t'
+location=3
+follow:h
+location=13
+follow:h
+location=30
+follow:h
+gram='is'
+location=6
+follow:-
+location=9
+follow:-
+location=33
+follow:t
+gram='a-'
+location=12
+follow:t
+gram='es'
+location=1
+follow:-
+gram='et'
+location=21
+follow:t
+gram='re'
+location=20
+follow:t
+gram='th'
+location=4
+follow:i
+location=14
+follow:i
+location=31
+follow:i
+gram='tl'
+location=35
+follow:e
+gram='pi'
+location=26
+follow:n
+gram='le'
+location=36
+gram='nk'
+location=28
+follow:-
+gram='n-'
+location=17
+follow:p
+{tt=[y], hi=[s, n, s], pr=[e], ty=[-], ye=[s], -a=[-], y-=[p], s-=[t, i, a], -i=[s], st=[l], k-=[t], -p=[r, i], in=[-, k], e=[-, t], -t=[h, h, h], is=[-, -, t], a-=[t], es=[-], et=[t], re=[t], th=[i, i, i], tl=[e], pi=[n], le=[], nk=[-], n-=[p]}
+There are 26 keys:
+1: 'tt'='[y]'
+2: 'hi'='[s, n, s]' # WE AGREE
+3: 'pr'='[e]'
+4: 'ty'='[-]'
+5: 'ye'='[s]'
+6: '-a'='[-]'
+7: 'y-'='[p]'
+8: 's-'='[t, i, a]' # WE AGREE
+9: '-i'='[s]'
+10: 'st'='[l]'
+11: 'k-'='[t]'
+12: '-p'='[r, i]'
+13: 'in'='[-, k]'
+14: 'e'='[-, t]'
+15: '-t'='[h, h, h]' # WE AGREE
+16: 'is'='[-, -, t]'
+17: 'a-'='[t]'
+18: 'es'='[-]'
+19: 'et'='[t]'
+20: 're'='[t]'
+21: 'th'='[i, i, i]' # WE AGREE
+22: 'tl'='[e]'
+23: 'pi'='[n]'
+24: 'le'='[]' ### NOT VALUE
+25: 'nk'='[-]'
+26: 'n-'='[p]'
